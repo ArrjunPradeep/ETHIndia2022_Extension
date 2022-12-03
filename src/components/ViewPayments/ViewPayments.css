@@ -1,0 +1,38 @@
+.viewpayments-container {
+
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.viewpayments-one, .viewpayments-two, .viewpayments-three {
+    flex: 1;
+    /* width: 400px; */
+    height: 100px;
+    background-color: wheat;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+.viewpayments-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 8px 31px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 22px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  
+  .viewpayments-button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }

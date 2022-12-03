@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Contract Wallet",
+  "description": "Account Abstraction",
+  "version": "1.0",
+  "icons": {
+    "16": "account.png",
+    "48": "account.png",
+    "128": "account.png"
+  },
+  "action": {
+    "default_icon": "account.png",
+    "default_title": "Smart Contract Wallet",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "alarms",
+    "notifications"
+  ],
+  "matches": ["<all_urls>"],
+  "js": ["contentScript.js"]
+}
